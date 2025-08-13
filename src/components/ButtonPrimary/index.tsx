@@ -1,9 +1,13 @@
 import "./style.css";
 
-export default function ButtonPrimary() {
+type Props = {
+    nameButton: string;
+}
+
+export default function ButtonPrimary({ nameButton }: Props) {
     return (
         <div className="dsc-btn dsc-btn-blue">
-            Comprar
+            {nameButton}
         </div>
     );
 }

@@ -1,4 +1,3 @@
-import computerImg from '../../assets/computer.png';
 import { ProductDTO } from '../../models/product';
 import ProductDetailsCategory from '../ProductDetailsCategory';
 
